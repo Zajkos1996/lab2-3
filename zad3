@@ -31,4 +31,4 @@ _.forEach(user.allGrades, function(x){
     sum += (_.sum(x.grades));
 })
 let weiAvg = sum / sumOfWeights;
-console.log("Średnia ważona wynosi: ", weiAvg)
+console.log("Średnia ważona wynosi: ", weiAvg);   
